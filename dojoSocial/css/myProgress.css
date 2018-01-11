@@ -1,0 +1,155 @@
+@CHARSET "ISO-8859-1";
+
+#edit {
+	display: none;
+}
+
+#imgupload {
+	display: none;
+}
+
+#changepass {
+	display: none;
+}
+
+#belt {
+	height: 121px;
+	clear: both;
+	margin-top: 100px;
+}
+
+#belt img.belt {
+	width: 300px;
+	margin: 0 154px;
+}
+
+#belt img.stripe {
+	display: block;
+	margin: -12px 0 0 343px;
+	width: 31px;
+}
+
+#upgradereq {
+	margin-top: 20px;
+}
+
+#upgradereq .stripe {
+	border: 1px solid black;
+	width: 550px;
+	margin: 15px auto 0;
+	padding: 5px;
+}
+
+#upgradereq .stripe ul li{
+	display: inline-block;
+	width: 173px;
+	padding: 5px;
+	text-align: center;
+	margin: 0 auto;
+	vertical-align: middle;	
+}
+
+#upgradereq .done {
+	background-color: #00FF00;
+}
+
+.stripe1 {
+	background-image: url('../images/stripe1.png');
+	background-repeat: no-repeat;
+}
+
+.stripe2 {
+	background-image: url('../images/stripe2.png');
+	background-repeat: no-repeat;
+}
+
+.stripe3 {
+	background-image: url('../images/stripe3.png');
+	background-repeat: no-repeat;
+}
+
+#info {
+	padding: 10px;
+}
+
+#info label {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#info #infoLeft {
+	float: left;
+	margin-left: 15px;
+}
+
+#info #infoRight {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+#info div.address {
+	display: inline-block;
+	margin-top: 2px;
+}
+
+#info li.add label {
+	vertical-align: top;
+}
+
+#info li {
+	padding: 3px;
+}
+
+#mainPanel a {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid black;
+	padding: 5px 5px 5px 5px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+#actions {
+	float: right;
+	display: inline-block;
+	margin: 10px 15px 0 0;
+	padding: 10px;
+	width: 122px;
+	text-align: right;
+}
+
+#picture {
+	display: inline-block;
+	padding: 10px;
+	width: 105px;
+	margin-left: 19px;
+}
+
+#picture img {
+	height: 80px;
+	width: 80px;
+	margin: 0 0 2px 10px;
+}
+
+#editPanel li {
+	margin-bottom: 10px;
+}
+
+#changepassForm li {
+	margin-bottom: 10px;
+}
+
+#imgupload img {
+	width: 80px;
+	height: 80px;
+}
+
+#imgupload p {
+	width: 360px;
+	margin-top: 8px;
+}
+
+#imgupload input {
+	margin-top: 8px;
+	border: none;
+}

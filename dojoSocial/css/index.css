@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+
+#login {
+	float: left;
+	width: 264px;
+	margin: 100px 20px 0;
+}
+
+#signup {
+	display: inline-block;
+	width: 264px;
+	margin-top: 100px;
+	padding: 0 20px;
+	border-left: 2px solid #1D89D1;
+	height: 600px;
+}
+
+#mainPanel p {
+	width: 264px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+input {
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+input.action {
+	width: 60px;
+	float: right;
+}
+
+label {
+	width: 264px;
+	display: block;
+	font-weight: bold;
+	margin: 3px 0;
+}

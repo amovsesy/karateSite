@@ -1,0 +1,44 @@
+@CHARSET "ISO-8859-1";
+
+tr {
+	width: 585px;
+}
+
+td {
+	padding: 15px;
+}
+
+td img {
+	height: 175px;
+	width: 175px;
+}
+
+td p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.back {
+	display: inline-block;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 18px;
+	margin: 10px 0 0 15px;
+	background-image: url('../images/back.png');
+	background-position: 14px;
+	background-repeat: no-repeat;
+}
+
+.back a {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid black;
+	padding: 5px 5px 5px 29px;
+}
+
+#pics img {
+	height: 120px;
+	width: 120px;
+	padding: 15px;
+}

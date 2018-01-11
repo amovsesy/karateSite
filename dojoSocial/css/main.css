@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #666;
+}
+
+#content {
+	width: 780px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#mainPanel {
+	margin: 147px 0 -10000px;
+	float: right;
+	width: 610px;
+	min-height: 535px;
+	background-color: #EFEFEF;
+	border-left: 1px solid #1D89D1;
+	border-right: 1px solid #1D89D1;
+	border-bottom: 1px solid #1D89D1;
+	padding-bottom: 10000px;
+}
+
+#leftPanel {
+	float: left;
+	width: 168px;
+	background-color: #1D89D1;
+	display: inline;
+	padding-bottom: 10000px;
+	margin-bottom: -10000px;
+}
+
+#sidebar {
+	float: left;
+	margin-top: -5px;
+}
+
+#nav {
+	margin: -25px 0 0 1px;
+	position: relative;
+	padding-bottom: 10px;
+	width: 168px;
+}
+
+#nav p {
+	display: block;
+	font-size: 20px;
+	padding: 5px 0 5px 5px;
+	text-align: right;
+}
+
+#nav p a {
+	background-color: #EFEFEF;
+	text-decoration: none;
+	padding: 2px;
+}
+
+#nav p a:hover {
+	background-color: #000;
+	color: #EFEFEF;
+}
+
+#nav .selected {
+	background-color: #000;
+	color: #EFEFEF;
+	text-decoration: none;
+	padding: 2px;
+}
+
+#fb {
+	margin-left: 1px;
+	margin-top: 5px;
+	background-color: #EFEFEF;
+	position: relative;
+}

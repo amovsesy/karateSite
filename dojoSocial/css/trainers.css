@@ -1,0 +1,60 @@
+@CHARSET "ISO-8859-1";
+
+#instructors {
+	width: 600px;
+	margin: 0 auto;
+}
+
+#instructors li {
+	padding: 15px;
+	width: 600px;
+}
+
+#instructors .name {
+	display: inline-block;
+	width: 100px;
+	vertical-align: top;
+}
+
+#instructors li h1 {
+	display: block;
+	margin-top: 5px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#instructors .name img {
+	height: 80px;
+	width: 80px;
+	vertical-align: top;
+}
+
+#instructors .instructortext {
+	display: inline-block;
+	width: 450px;
+	margin: 0 10px;
+}
+
+#instructors .instructorInfo {
+	margin-bottom: 10px;
+}
+
+#instructors .quote {
+	font-style: italic;
+	display: inline-block;
+}
+
+#instructors .quote img {
+	width: 13px;
+	display: inline-block;
+}
+
+#instructors .quote img.left {
+	margin: -3px 0 0;
+	vertical-align: top;
+}
+
+#instructors .quote img.right {
+	margin: 0;
+	vertical-align: sub;
+}

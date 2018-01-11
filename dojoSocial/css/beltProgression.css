@@ -1,0 +1,109 @@
+@CHARSET "ISO-8859-1";
+
+hr {
+	width: 400px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+.progress {
+	width: 600px;
+	margin: 20px auto;
+}
+
+.upgrade {
+	display: inline-block;
+	width: 149px;
+	float: left;
+}
+
+.upgrade img {
+	height: 55px;
+	display: block;
+	margin: 10px auto;
+}
+
+.upgrade img.arrow {
+	height: 30px;
+}
+
+.requirements {
+	width: 451px;
+	display: inline-block;
+}
+
+.overview {
+	margin-top: 3px;
+}
+
+.stripe1 {
+	background-image: url('../images/stripe1.png');
+}
+
+.stripe2 {
+	background-image: url('../images/stripe2.png');
+}
+
+.stripe3 {
+	background-image: url('../images/stripe3.png');
+}
+
+.overview ol {
+	width: 220px;
+	margin: 0 3px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.category {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.beltquote {
+	display: inline-block;
+	width: 220px;
+	margin: 0 2px 0 3px; 
+}
+
+.beltquote p {
+	display: inline;
+}
+
+.beltquote img {
+	width: 12px;
+	display: inline-block;
+}
+
+.beltquote img.open {
+	margin: 0 2px 7px 0;
+}
+
+.beltquote img.close {
+	margin: 0 0 -7px 2px;
+}
+
+.beltinfo {
+	clear: both;
+	width: 550px;
+	margin: 10px auto;
+}
+
+.symbolizes {
+	font-style: italic;
+}
+
+.stripe {
+	border: 1px solid black;
+	width: 426px;
+	margin: 15px auto 0;
+	padding: 5px;
+}
+
+.stripe ul li{
+	display: inline-block;
+	width: 142px;
+	text-align: center;
+	margin: 0 auto;
+	vertical-align: middle;	
+}
