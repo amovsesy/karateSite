@@ -1,0 +1,197 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: #666;
+}
+
+#content {
+	width: 780px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#footer {
+	width: 780px;
+	margin: 0 auto;
+	padding: 5px 0;
+	background-color: #1D89D1;
+	clear: both;
+}
+
+#footer p {
+	width: 780px;
+	text-align: center;
+	padding: 5px 0;
+	margin: 0 auto;
+	vertical-align: middle;
+	background-color: #EFEFEF;
+	font-style: italic;
+	clear: both;
+}
+
+#nav {
+	float: left;
+	width: 168px;
+	background-color: #1D89D1;
+	display: inline;
+	padding-bottom: 3000px;
+	margin-bottom: -3000px;
+}
+
+#info {
+	margin: 147px 0 -3000px;
+	float: right;
+	width: 610px;
+	min-height: 535px;
+	background-color: #EFEFEF;
+	border-left: 1px solid #1D89D1;
+	border-right: 1px solid #1D89D1;
+	border-bottom: 1px solid #1D89D1;
+	padding-bottom: 3000px;
+}
+
+#leftPanel {
+	float: left;
+	margin-top: -5px;
+}
+
+#fb {
+	margin-left: 1px;
+	margin-top: 5px;
+	background-color: #EFEFEF;
+	position: relative;
+}
+
+#signup {
+	margin-top: -25px;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+#signup h3 {
+	width: 168px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#signup form input {
+	width: 140px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 3px #666;
+	-webkit-box-shadow: 2px 2px 3px #666;
+	box-shadow: 2px 2px 3px #666;
+	-webkit-appearance: none;
+	outline: 0;
+}
+
+#signup form input.btn-action {
+	font-size: 16px;
+	font-weight: bold;
+	color: #EFEFEF;
+	margin: 5px 14px;
+	background-color: #DB0B0B;
+	height: 30px;
+}
+
+#signup form input.input {
+	border: 1px solid #ccc;
+	font-size: 11px;
+	padding: 4px 7px;
+	margin: 5px 7px 0;
+}
+
+#player {
+	display: block;
+	width: 450px;
+	height: 310px;
+	margin: 0 auto;
+}
+
+#title h1 {
+	padding: 15px;
+	font-size: 36px;
+	text-align: center;
+	color: #EF3E34;
+	font-weight: bold;
+}
+
+#quoteContainer {
+	width: 600px;
+	margin: -5px auto 0;
+}
+
+#title p {
+	text-align: center;
+	font-style: italic;
+	padding:  0 10px 10px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	background-image: url('../images/openQuote.png');
+	background-repeat: no-repeat;
+	background-position: 70px;
+}
+
+.ghost-label {
+    position: relative;
+}
+
+.ghost-label label {
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    cursor: text;
+	font-style: italic;
+	font-size: 15px;
+}
+
+#information h1 {
+	font-weight: bold;
+	padding: 15px 15px 0;
+	font-size: 20px;
+	margin-top: 20px;
+} 
+
+#information p {
+	padding: 0 15px;
+	margin-top: 18px;
+	line-height: 18px;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.red {
+	color: #F00;
+}
+
+.blue {
+	color: #000080;
+}
+
+#more {
+	margin: 15px 0;
+	position: relative;
+}
+
+#more p {
+	display: block;
+	font-size: 20px;
+	padding: 5px 0 5px 5px;
+	text-align: right;
+}
+
+#more p a {
+	background-color: #EFEFEF;
+	text-decoration: none;
+	padding: 2px;
+}
+
+#more p a:hover {
+	background-color: #000;
+	color: #EFEFEF;
+}
